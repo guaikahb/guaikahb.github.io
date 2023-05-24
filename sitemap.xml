@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/manifest.json</loc>
+    <loc>https://www.wbdqc.cn/manifest.json</loc>
     
     <lastmod>2023-05-24</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/24d8e0f2.html</loc>
+    <loc>https://www.wbdqc.cn/posts/24d8e0f2.html</loc>
     
     <lastmod>2023-05-24</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/1005.html</loc>
+    <loc>https://www.wbdqc.cn/posts/1005.html</loc>
     
     <lastmod>2023-05-24</lastmod>
     
@@ -30,7 +30,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://www.wbdqc.cn/</loc>
     <lastmod>2023-05-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -38,7 +38,7 @@
 
   
   <url>
-    <loc>http://example.com/tags/%E4%BC%91%E9%97%B2/</loc>
+    <loc>https://www.wbdqc.cn/tags/%E4%BC%91%E9%97%B2/</loc>
     <lastmod>2023-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
