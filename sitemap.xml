@@ -4,7 +4,7 @@
   <url>
     <loc>http://example.com/manifest.json</loc>
     
-    <lastmod>2023-05-23</lastmod>
+    <lastmod>2023-05-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>http://example.com/posts/24d8e0f2.html</loc>
     
-    <lastmod>2023-05-23</lastmod>
+    <lastmod>2023-05-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>http://example.com/posts/1005.html</loc>
     
-    <lastmod>2023-05-23</lastmod>
+    <lastmod>2023-05-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +31,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-05-23</lastmod>
+    <lastmod>2023-05-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -39,7 +39,7 @@
   
   <url>
     <loc>http://example.com/tags/%E4%BC%91%E9%97%B2/</loc>
-    <lastmod>2023-05-23</lastmod>
+    <lastmod>2023-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
