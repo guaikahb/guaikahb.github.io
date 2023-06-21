@@ -4,7 +4,16 @@
   <url>
     <loc>https://www.wbdqc.cn/manifest.json</loc>
     
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/posts/f93d8a6f.html</loc>
+    
+    <lastmod>2023-06-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,25 +22,7 @@
   <url>
     <loc>https://www.wbdqc.cn/posts/24d8e0f2.html</loc>
     
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wbdqc.cn/posts/13446efb.html</loc>
-    
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wbdqc.cn/posts/1005.html</loc>
-    
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +31,7 @@
 
   <url>
     <loc>https://www.wbdqc.cn/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,14 +39,14 @@
   
   <url>
     <loc>https://www.wbdqc.cn/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.wbdqc.cn/tags/%E4%BC%91%E9%97%B2/</loc>
-    <lastmod>2023-06-07</lastmod>
+    <loc>https://www.wbdqc.cn/tags/uniapp/</loc>
+    <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
