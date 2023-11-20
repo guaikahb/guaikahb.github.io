@@ -6,7 +6,7 @@
   <link href="https://www.wbdqc.cn/atom.xml" rel="self"/>
   
   <link href="https://www.wbdqc.cn/"/>
-  <updated>2023-11-20T03:57:32.766Z</updated>
+  <updated>2023-11-20T04:00:25.629Z</updated>
   <id>https://www.wbdqc.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.wbdqc.cn/posts/27fe6e15.html"/>
     <id>https://www.wbdqc.cn/posts/27fe6e15.html</id>
     <published>2023-11-20T03:48:31.000Z</published>
-    <updated>2023-11-20T03:57:32.766Z</updated>
+    <updated>2023-11-20T04:00:25.629Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="怪咖工作室·大数据平台"><a href="#怪咖工作室·大数据平台" class="headerlink" title="怪咖工作室·大数据平台"></a>怪咖工作室·大数据平台</h1><p><span style="color:red;">温馨提示：以下内容，纯属娱乐，不喜勿喷，高抬贵手。</span></p><p>&emsp; &emsp; 部署完上一个项目之后 <a href="https://www.guaika.xyz/web">演示地址</a>，颇有启发，想自行设计开发一个大数据平台，于是就管他三七二十一的，掏出原型工具就开干。</p><p>&emsp; &emsp; 通过时长 <code>两天半</code>的掉发后，设计终于有点丑了，哈哈……<img src="https://i.hd-r.cn/5478c08b43c5d5cf32071242d2c720ac.png" alt="img">。</p><p><img src="https://i.hd-r.cn/6bceefc81bd735680b35bf0384bb2b0b.png" alt="show.jpg"></p><p>&emsp; &emsp; 经过反复的推敲、打磨后，成品成功的被扼杀了，呃…<br>&emsp; &emsp; 然，我并没有放弃，就一直条头发，又是一个 <code>两天半</code>的奋战后，出结果了。</p><h4 id="项目架构"><a href="#项目架构" class="headerlink" title="项目架构"></a>项目架构</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Vue3.2 + Vite 4 + ECharts 5 + Tailwindcss</span><br></pre></td></tr></table></figure><p><a href="https://www.tailwindcss.cn">Tailwindcss</a></p><h4 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure><h4 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run dev</span><br></pre></td></tr></table></figure><h4 id="演示效果"><a href="#演示效果" class="headerlink" title="演示效果"></a>演示效果</h4><p>演示地址：<a href="https://www.guaika.xyz/web">https://www.guaika.xyz/web</a></p><p><img src="https://i.hd-r.cn/752ad3da7ec8d5595d1a9bec6c545b43.jpg" alt="show.jpg"></p><p>免责声明：本文只是作者的个人观点，不代表网站立场。 转载请注明出处。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="怪咖工作室·大数据平台"><a href="#怪咖工作室·大数据平台" class="headerlink" title="怪咖工作室·大数据平台"></a>怪咖工作室·大数据平台</h1><p><span style="color:red;">温馨提示：以下内容，纯属娱乐，不喜勿喷，高抬贵手。</span></p><p>&emsp; &emsp; 部署完上一个项目之后 <a href="https://www.guaika.xyz/web">演示地址</a>，颇有启发，想自行设计开发一个大数据平台，于是就管他三七二十一的，掏出原型工具就开干。</p><p>&emsp; &emsp; 通过时长 <code>两天半</code>的掉发后，设计终于有点丑了，哈哈……<img src="https://i.hd-r.cn/5478c08b43c5d5cf32071242d2c720ac.png" alt="img">。</p><p><img src="https://i.hd-r.cn/6bceefc81bd735680b35bf0384bb2b0b.png" alt="show.jpg"></p><p>&emsp; &emsp; 经过反复的推敲、打磨后，成品成功的被扼杀了，呃…<br>&emsp; &emsp; 然，我并没有放弃，就一直条头发，又是一个 <code>两天半</code>的奋战后，出结果了。</p><h4 id="项目架构"><a href="#项目架构" class="headerlink" title="项目架构"></a>项目架构</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Vue3.2 + Vite 4 + ECharts 5 + Tailwindcss</span><br></pre></td></tr></table></figure><p><a href="https://www.tailwindcss.cn">Tailwindcss</a></p><h4 id="演示效果"><a href="#演示效果" class="headerlink" title="演示效果"></a>演示效果</h4><p>演示地址：<a href="https://www.guaika.xyz/web">https://www.guaika.xyz/web</a></p><p><img src="https://i.hd-r.cn/752ad3da7ec8d5595d1a9bec6c545b43.jpg" alt="show.jpg"></p><p>免责声明：本文只是作者的个人观点，不代表网站立场。 转载请注明出处。</p>]]></content>
     
     
       
