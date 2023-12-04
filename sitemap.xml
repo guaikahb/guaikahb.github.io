@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wbdqc.cn/posts/de4fbb6d.html</loc>
+    
+    <lastmod>2023-12-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wbdqc.cn/posts/27fe6e15.html</loc>
     
     <lastmod>2023-11-20</lastmod>
@@ -49,7 +58,7 @@
 
   <url>
     <loc>https://www.wbdqc.cn/</loc>
-    <lastmod>2023-11-20</lastmod>
+    <lastmod>2023-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,28 +66,35 @@
   
   <url>
     <loc>https://www.wbdqc.cn/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2023-11-20</lastmod>
+    <lastmod>2023-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wbdqc.cn/tags/uniapp/</loc>
-    <lastmod>2023-11-20</lastmod>
+    <lastmod>2023-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wbdqc.cn/tags/Vue/</loc>
-    <lastmod>2023-11-20</lastmod>
+    <lastmod>2023-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wbdqc.cn/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE-Vue3-ECharts-Tailwindcss/</loc>
-    <lastmod>2023-11-20</lastmod>
+    <lastmod>2023-12-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/tags/uniapp-%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2023-12-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
