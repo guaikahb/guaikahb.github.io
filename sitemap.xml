@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://www.wbdqc.cn/about/index.html</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/categories/index.html</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wbdqc.cn/tags/index.html</loc>
     
     <lastmod>2024-03-15</lastmod>
@@ -21,6 +39,24 @@
   
   <url>
     <loc>https://www.wbdqc.cn/posts/f93d8a6f.html</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/posts/db0c49c6.html</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/posts/7d558cc7.html</loc>
     
     <lastmod>2024-03-15</lastmod>
     
@@ -73,24 +109,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://www.wbdqc.cn/about/index.html</loc>
-    
-    <lastmod>2024-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wbdqc.cn/categories/index.html</loc>
-    
-    <lastmod>2024-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://www.wbdqc.cn/</loc>
@@ -102,6 +120,20 @@
   
   <url>
     <loc>https://www.wbdqc.cn/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2024-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/tags/%E8%BD%AE%E8%AF%A2-JavaScript/</loc>
+    <lastmod>2024-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/tags/%E8%8A%82%E6%B5%81-%E9%98%B2%E6%8A%96/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -152,6 +184,13 @@
   </url>
   
   <url>
+    <loc>https://www.wbdqc.cn/categories/javaScript/</loc>
+    <lastmod>2024-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wbdqc.cn/categories/uniapp/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -160,6 +199,13 @@
   
   <url>
     <loc>https://www.wbdqc.cn/categories/Vue3/</loc>
+    <lastmod>2024-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wbdqc.cn/categories/js%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
