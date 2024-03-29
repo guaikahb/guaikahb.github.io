@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>uniapp微信小程序中嵌入H5页面，调试信息查看</title>
+      <link href="/posts/3f9e1af5.html"/>
+      <url>/posts/3f9e1af5.html</url>
+      
+        <content type="html"><![CDATA[<h5 id="需求">需求</h5><p>最近开发时遇到这么一个需求，使用uniapp开发H5界面，并通过<code>webview</code>嵌入小程序中使用。</p><h5 id="出现的问题">出现的问题</h5><p>在调试过程中发现嵌入的H5界面打印信息不显示，在浏览器中打印正常显示。当时就很纳闷，以为是编译器出问题（最近重新安装过编译器），查阅资料后发现，编译器有针对webview的调试功能。于是出篇文章记录一下。</p><h5 id="解决办法">解决办法</h5><ul><li>在微信开发者工具模拟器的右下角有个调试图标（像爬虫）。</li><li>运行项目后点击图标，会出现一个<code>DevTools</code>的窗口。</li><li>点击 <code>Console</code>,就能查看嵌入的H5界面的打印信息了。<br><img src="https://cdn.jsdelivr.net/npm/gk_drawing_bed/img/posts/3f9e1af5/3f9e1af5.png" alt=" 3f9e1af5 "></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Uniapp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> uniapp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>uniapp H5页面判断所在环境：微信小程序、微信浏览器、外部浏览器</title>
+      <link href="/posts/c9a9c747.html"/>
+      <url>/posts/c9a9c747.html</url>
+      
+        <content type="html"><![CDATA[<h1>uniapp H5 页面判断所在环境：微信小程序、微信浏览器、外部浏览器</h1><p>开发过程中难免会遇到需要判断单前页面所处的运行环境,那么我们应该如何来实现呢？</p><p>需求是这样的：uniapp 开发的 H5 界面需要嵌入微信小程序，安卓 app 中，其中有部分功能是在 app 中显示，小程序中不显示。经过一番摸索之后，我也找到解决办法，再此备忘一下。</p><h4 id="解决方法">解决方法</h4><ol><li>借助微信提供的<code>sd k</code></li><li>获取浏览器信息</li><li>判断方法</li></ol><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">安装<span class="attr">sdk</span>:</span><br><span class="line">npm install weixin-js-sdk</span><br><span class="line">引入<span class="attr">sdk</span>:</span><br><span class="line"><span class="keyword">let</span> wxSdk = <span class="built_in">require</span>(<span class="string">&#x27;weixin-js-sdk&#x27;</span>);</span><br><span class="line">判断方法：</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getENVIR</span> () &#123;</span><br><span class="line"><span class="keyword">let</span> wxSdk = <span class="built_in">require</span>(<span class="string">&#x27;weixin-js-sdk&#x27;</span>);</span><br><span class="line"><span class="keyword">let</span> text = <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="keyword">let</span> ua = navigator.<span class="property">userAgent</span>.<span class="title function_">toLowerCase</span>();</span><br><span class="line"><span class="keyword">if</span> (ua.<span class="title function_">match</span>(<span class="regexp">/MicroMessenger/i</span>) == <span class="string">&quot;micromessenger&quot;</span>) &#123;</span><br><span class="line">wxSdk.<span class="property">miniProgram</span>.<span class="title function_">getEnv</span>(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;</span><br><span class="line"><span class="keyword">if</span> (res.<span class="property">miniprogram</span>) &#123;</span><br><span class="line"><span class="comment">//小程序环境</span></span><br><span class="line">text = <span class="string">&#x27;wx&#x27;</span></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"><span class="comment">//微信环境</span></span><br><span class="line">text = <span class="string">&#x27;noWx&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"><span class="comment">// 其他浏览器</span></span><br><span class="line">text = <span class="string">&#x27;noWx&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> text</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Uniapp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> uniapp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>js防抖、节流</title>
       <link href="/posts/7d558cc7.html"/>
       <url>/posts/7d558cc7.html</url>
