@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>npm 淘宝镜像</title>
+      <link href="/posts/24db86e5.html"/>
+      <url>/posts/24db86e5.html</url>
+      
+        <content type="html"><![CDATA[<p>最近安装依赖包的时候，出现报错</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="variable constant_">ERR</span>! request to <span class="attr">https</span>:<span class="comment">//registry.npm.taobao.org/yorkie/download/yorkie-2.0.0.tgz failed, reason: certificate has expired</span></span><br></pre></td></tr></table></figure><p><strong>原因：</strong><br>查阅后发现，淘宝 npm 镜像的证书到期了，导致 npm 安装依赖包失败。<br>早在 2021 年，淘宝就发文称，npm 淘宝镜像已经从 <a href="http://registry.npm.taobao.org">http://registry.npm.taobao.org</a> 切换到了 <a href="http://registry.npmmirror.com">http://registry.npmmirror.com</a>。旧域名也将于 2022 年 5 月 31 日停止服务（直到 HTTPS 证书到期才真正不能用了）</p><p>2024年1 月 22 日，淘宝原镜像域名（<a href="http://registry.npm.taobao.org">http://registry.npm.taobao.org</a>）的 HTTPS 证书正式到期，导致旧的 npm 淘宝镜像在使用时出错了。</p><p><strong>解决方案</strong></p><ol><li>清空 npm 缓存：</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm cache clean --force</span><br></pre></td></tr></table></figure><ol start="2"><li>查看当前 npm 源：</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config get registry</span><br></pre></td></tr></table></figure><ol start="3"><li>切换 npm 源：</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry <span class="attr">https</span>:<span class="comment">//registry.npmmirror.com</span></span><br></pre></td></tr></table></figure><ol start="4"><li>验证是否切换成功：</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config get registry</span><br></pre></td></tr></table></figure><ol start="5"><li>重新打开命令行，输入 <code>npm install</code> 即可安装依赖包。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> npm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Javascript中Object类的静态方法</title>
       <link href="/posts/f42e3c0c.html"/>
       <url>/posts/f42e3c0c.html</url>
