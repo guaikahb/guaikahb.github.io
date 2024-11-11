@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Vue+Go.js实现拖拽流程图</title>
+      <link href="/posts/232e41b3.html"/>
+      <url>/posts/232e41b3.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>最近开发遇到一个需求，需要实现一个流程图编辑器，使用vue+go.js实现。是依赖画布canvas相关技术实现的。需要花费大量时间去熟悉go.js相关技术，研究几天发现vue+go.js实现起来非常简单，而且vue的组件化思想也非常适合流程图编辑器的开发。</p><h2 id="官方案例">官方案例</h2><p>vue+go.js实现流程图编辑器，可以参考官方的案例：<a href="https://gojs.net.cn/samples/flowchart.html">https://gojs.net.cn/samples/flowchart.html</a></p><p><img src="https://cdn.jsdelivr.net/npm/gk_drawing_bed/img/posts/232e41b3/gk_go3.png" alt="show.png"></p><h2 id="实现步骤">实现步骤</h2><ol><li>画布初始化</li></ol><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 左边流程图 --&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;palette-box&quot;</span> <span class="attr">id</span>=<span class="string">&quot;myPaletteDiv&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"> <span class="comment">&lt;!-- 流程图制作区域 --&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;chart-box&quot;</span> <span class="attr">id</span>=<span class="string">&quot;myDiagramDiv&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><ol start="2"><li>初始化流程面板</li></ol><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//初始化流程图面板</span></span><br><span class="line">that.<span class="property">myDiagram</span> = $(</span><br><span class="line">  go.<span class="property">Diagram</span>,</span><br><span class="line">  <span class="string">&quot;myDiagramDiv&quot;</span>, <span class="comment">// must name or refer to the DIV HTML element</span></span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;grid.visible&quot;</span>: <span class="literal">false</span>, <span class="comment">//显示网格</span></span><br><span class="line">    <span class="attr">initialContentAlignment</span>: go.<span class="property">Spot</span>.<span class="property">Center</span>, <span class="comment">// 令绘制的元素相对画布居中</span></span><br><span class="line">    <span class="title class_">LinkDrawn</span>: that.<span class="property">showLinkLabel</span>, <span class="comment">// this DiagramEvent     listener is defined below</span></span><br><span class="line">    <span class="title class_">LinkRelinked</span>: that.<span class="property">showLinkLabel</span>,</span><br><span class="line">    <span class="string">&quot;undoManager.isEnabled&quot;</span>: <span class="literal">true</span>, <span class="comment">//是否可撤销编辑</span></span><br><span class="line">    <span class="attr">isReadOnly</span>: isReadOnly, <span class="comment">//只读</span></span><br><span class="line">  &#125;</span><br><span class="line">);</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/npm/gk_drawing_bed/img/posts/232e41b3/gk_go06.png" alt="show.png"></p><ol start="3"><li>初始化流程面板节点</li></ol><p><img src="https://cdn.jsdelivr.net/npm/gk_drawing_bed/img/posts/232e41b3/gk_go4.png" alt="show.png"></p><ol start="4"><li>流程图相关方法</li></ol><p><img src="https://cdn.jsdelivr.net/npm/gk_drawing_bed/img/posts/232e41b3/gk_go5.png" alt="show.png"></p><h2 id="效果展示">效果展示</h2><p><img src="https://cdn.jsdelivr.net/npm/gk_drawing_bed/img/posts/232e41b3/gk_go1.jpg" alt="show.jpg"></p><p><img src="https://cdn.jsdelivr.net/npm/gk_drawing_bed/img/posts/232e41b3/gk_go2.jpg" alt="show.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Go.js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Go, Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>怪咖3D机器人可视化</title>
       <link href="/posts/5356d0dd.html"/>
       <url>/posts/5356d0dd.html</url>
